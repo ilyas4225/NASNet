@@ -7,3 +7,9 @@ The weights of the pre-trained layers are frozen, and the model is compiled usin
 The model is trained on the training set for 50 epochs with a batch size of 32, and the test set is used for validation during training. Finally, the model is evaluated on the test set, and the test loss and accuracy are printed.
 
 Overall, this code uses transfer learning to build a model for image classification on the CIFAR-10 dataset and achieves a high accuracy on the test set.
+# Results
+
+| Dataset  |Model         | Epochs|Train_Acc|Test_Acc|
+|----------|--------------|-------|---------|-------|
+| Cifar10  | NASNetMobile |50     | 96.69% | 39.16% |
+| Cifar100 | NASNetMobile |50     |       |  % |
