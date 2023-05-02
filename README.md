@@ -10,6 +10,6 @@ Overall, this code uses transfer learning to build a model for image classificat
 # Results
 
 | Dataset  |Model         | Epochs|Train_Acc|Test_Acc|
-|----------|--------------|-------|---------|-------|
-| Cifar10  | NASNetMobile |50     | 96.69% | 39.16% |
-| Cifar100 | NASNetMobile |300    |       |  % |
+|----------|--------------|-------|---------|--------|
+| Cifar10  | NASNetMobile |50     | 96.69%  | 39.16% |
+| Cifar100 | NASNetLarge  |300    | 24.42%  | 7.4%   |
